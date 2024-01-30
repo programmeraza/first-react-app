@@ -1,0 +1,37 @@
+.header {
+    background-color: #1D2F30;
+    height: 60px;
+}
+
+.container {
+    width: 95%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header__items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 15px 0;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    gap: 65px;
+}
+
+.header__icons {
+    display: flex;
+    gap: 65px;
+}
+
+.header__link {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}

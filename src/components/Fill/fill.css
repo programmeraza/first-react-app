@@ -1,0 +1,119 @@
+.fill {
+    background-image: url(../../assets/Group\ 220\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 478px;
+}
+
+.container {
+    width: 95%;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.fill__wrapper {
+    padding: 60px;
+    margin-left: 107px;
+}
+
+.fill__column {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.fill__title {
+    color: var(--white, #FFF);
+    /* h2 */
+    font-family: Cormorant;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 100%;
+    /* 48px */
+}
+
+.fill__text {
+    width: 825px;
+    color: var(--white, #FFF);
+    /* p1_regular */
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+
+    padding-bottom: 24px;
+}
+
+.fill__inp {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.inp__name {
+    width: 350px;
+    height: 45px;
+
+    border: 1px solid #FFF;
+    background-color: #FFF;
+    color: var(--grey, #899D9D);
+    outline: 0;
+
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+
+    padding: 0 16px;
+
+    transition: all 0.5s;
+}
+
+.inp__name:hover {
+    border: none;
+    outline: 0;
+    border-bottom: 3px solid #BAE249;
+    background: transparent;
+    color: #BAE249;
+}
+
+.inp__name:hover::placeholder,
+.inp__name:focus::placeholder {
+    color: #BAE249;
+}
+
+.inp__name:focus {
+    border: none;
+    background: transparent;
+    border-bottom: 3px solid #BAE249;
+}
+
+.inp__btn {
+    padding: 10px 59px;
+    width: 145px;
+    height: 45px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #BAE249;
+    background-color: #BAE249;
+    color: #000;
+
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 700;
+
+    transition: all 1s;
+}
+
+.inp__btn:hover {
+    border: 1px solid #BAE249;
+    background: transparent;
+    color: #BAE249;
+}

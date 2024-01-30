@@ -1,0 +1,36 @@
+.footer {
+    background-color: #0B1919;
+}
+
+.container {
+    width: 95%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.footer__wrapper {
+    padding: 18px 0;
+}
+
+.footer__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer__down {
+    background-color: #1D2F30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__text {
+    color: var(--grey, #899D9D);
+    /* p2_open sans */
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    padding: 3px 0;
+}
