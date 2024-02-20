@@ -5,7 +5,6 @@ import All from "../../assets/card_5.png"
 const Rectagle = () => {
   return (
     <>
-
     <div className="rectagle">
       <div className="container">
         <div className="rectagle__wrapper">

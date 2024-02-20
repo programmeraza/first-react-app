@@ -19,7 +19,6 @@ const Artifacts = () => {
                             <h3 className='title__card'>{card.name}</h3>
                             <p className="text__card">{card.text}</p>
                             <button className='btn__card'>{card.btn}</button>
-                            <p>asdasd</p>
                         </div>
                     </div>
                     </Link>

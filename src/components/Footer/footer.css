@@ -34,3 +34,11 @@
     font-weight: 400;
     padding: 3px 0;
 }
+
+.link__btn {
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
